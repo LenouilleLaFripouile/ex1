@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Libre Franklin";
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  display: block;
+}
+
+.navigation{
+  display: flex;
+width: 320px;
+padding: 20px 10px;
+justify-content: center;
+align-items: center;
+gap: 15px;
+font-size: 16px;
+
+}
+.navigation a{
+  transition: all .5s;
+}
+.navigation a:hover{
+  color: #F6260E;
+}
+
+.img1{
+  width: 320px;
+height: 213px;
+flex-shrink: 0;
+}
+
+.day{
+  color: #FFF;
+font-size: 11px;
+font-weight: 700;
+line-height: 12px; /* 109.091% */
+text-transform: uppercase;
+border-radius: 10px;
+background: #F6260E;
+margin-left: 90px;
+margin-right: 90px;
+margin-top: 15px;
+margin-bottom: 15px;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 4px;
+padding-bottom: 4px;
+}
+
+.description{
+  font-family: "Sorts Mill Goudy";
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.description h1{
+text-align: center;
+font-size: 24px;
+font-weight: 400;
+margin-bottom: 15px;
+}
+.description h3{
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 15px;
+}
+.jerelle{
+text-align: center;
+font-size: 16px;
+font-weight: 700;
+padding-left: 15px;
+padding-right: 15px;
+margin-bottom: 29px;
+}
+
+.recettes{
+  background: #EAEDE7;  
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.cook{
+  color: #000;
+font-family: "Sorts Mill Goudy";
+font-size: 20px;
+font-weight: 400;
+}
+.underline{
+  background: #000;
+  width: 290px;
+  height: 1px;
+  margin-bottom: 15px;
+}
+.recettes img{
+  width: 290px;
+  height: 192px; 
+}
+
+.recette{
+  background-color: #FFF;
+  margin-bottom: 15px;
+  padding-bottom: 20px;
+  border: 1px solid #D3D3D3;
+}
+.recette h1{
+text-align: center;
+font-size: 20px;
+font-weight: 400;
+}
+.recette img{
+  margin-bottom: 20px;
+}
+
+footer{
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  color: #FFF;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+}
+footer h1{
+font-size: 20px;
+font-weight: 400;
+}
+footer a{
+font-size: 16px;
+font-weight: 400;
+transition: all .5s;
+}
+footer a:hover{
+  color: #F6260E;
+}
